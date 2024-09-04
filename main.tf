@@ -1,7 +1,7 @@
 variable "kms_master_key_arn" {}
 variable "name" {}
 
-module "s3_bucket" {
+module "s3_bucket_2" {
   source = "cloudposse/s3-bucket/aws"
   # Cloud Posse recommends pinning every module to a specific version
   # version = "x.x.x"
