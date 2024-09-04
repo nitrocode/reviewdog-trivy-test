@@ -35,5 +35,6 @@ jobs:
           # reporter: github-pr-review # Change reviewdog reporter
           # filter_mode: nofilter # Check all files, not just the diff
           fail_on_error: true # Fail action if errors are found
+          filter_mode: nofilter
           tfsec_flags: --ignore-hcl-errors --tfvars-file dev.tfvars
           
