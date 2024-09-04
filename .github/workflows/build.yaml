@@ -20,6 +20,6 @@ jobs:
           working_directory: "." # Change working directory
           level: info # Get more output from reviewdog
           reporter: github-pr-review # Change reviewdog reporter
-          filter_mode: diff_context # Check all files, not just the diff
+          filter_mode: nofilter # Check all files, not just the diff
           fail_on_error: "false" # Fail action if errors are found
           trivy_flags: "--tf-vars dev.tfvars"
